@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import App from './App';
+import CounterApp from './CounterApp';
+
+ReactDOM.render(<CounterApp value={1} />, document.getElementById('root'));
